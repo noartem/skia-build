@@ -52,7 +52,7 @@ def main():
       # 'skia_enable_gpu=true',
       # 'skia_use_gl=true',
       'extra_cflags_cc=["-frtti"]',
-      'cxx="g++-9"',
+      'cxx="clang"',
     ]
   elif 'windows' == system:
     args += [
