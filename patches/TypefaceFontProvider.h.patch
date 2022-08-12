@@ -1,0 +1,12 @@
+diff --git a/modules/skparagraph/include/TypefaceFontProvider.h b/modules/skparagraph/include/TypefaceFontProvider.h
+index df759b1..8033f8c 100644
+--- a/modules/skparagraph/include/TypefaceFontProvider.h
++++ b/modules/skparagraph/include/TypefaceFontProvider.h
+@@ -10,6 +10,7 @@
+ #include "include/core/SkFontMgr.h"
+ #include "include/core/SkStream.h"
+ #include "include/core/SkString.h"
++#include "include/core/SkTypeface.h"
+ 
+ namespace skia {
+ namespace textlayout {
