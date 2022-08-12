@@ -1,0 +1,12 @@
+diff --git a/modules/svg/include/SkSVGDOM.h b/modules/svg/include/SkSVGDOM.h
+index a035179..9b6b523 100644
+--- a/modules/svg/include/SkSVGDOM.h
++++ b/modules/svg/include/SkSVGDOM.h
+@@ -14,6 +14,7 @@
+ #include "include/private/SkTemplates.h"
+ #include "modules/skresources/include/SkResources.h"
+ #include "modules/svg/include/SkSVGIDMapper.h"
++#include "modules/svg/include/SkSVGDefs.h"
+ 
+ class SkCanvas;
+ class SkDOM;
