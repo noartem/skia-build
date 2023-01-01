@@ -17,7 +17,7 @@ Update `version` in [.github/workflows/build.yml](https://github.com/noartem/ski
 ## Building locally
 
 ```sh
-python3 script/checkout.py --version m102-32283b3f00
+python3 script/checkout.py --version m109-664500fa93
 python3 script/build.py
 python3 script/archive.py
 ```
@@ -25,7 +25,7 @@ python3 script/archive.py
 To build a debug build:
 
 ```sh
-python3 script/checkout.py --version m102-32283b3f00
+python3 script/checkout.py --version m109-664500fa93
 python3 script/build.py --build-type Debug
 python3 script/archive.py --build-type Debug
 ```
